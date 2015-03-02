@@ -1,0 +1,256 @@
+<html>
+	<head>
+		<title>
+			Find a destination!
+		</title>
+
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="jquery-ui/jquery-ui.css">
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jquery-ui/jquery-ui.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		
+
+	</head>
+
+	<body>
+
+
+		<div id="main">
+
+
+			<div id="nav">
+
+				<span id="title">
+					<a href="index.html" style="float: left; margin-left: 2%;">THE WAY-TO-GO</a>
+                </span>
+                <br><br><br><br><br><br><br>
+                <span class="subheading" style="margin-left: -290px;">Looking for the perfect vacation destination? We're here to help!</span>
+                <br><br><br><br>
+                <center><span class="subheading" style="color: #3E87D1;">First off, do you have any idea where you want to go?</span></center>
+
+			</div>
+
+
+			<div id="blank">
+			</div>
+
+
+            <div id = "idea" class="inactive-background">
+
+				<span class="heading">
+					AN IDEA
+				</span>
+
+			</div>
+
+
+			<div id="no-idea" class="inactive-background">
+					
+				<span class="heading">
+					NO IDEA
+				</span>
+
+			</div>
+
+
+            <div id = "no-idea_form" class = "zero-height">
+
+
+                <br><br><br><br><br><br><br><center><span class="subheading" style="color: #3E87D1;">Where are you starting from?</span></center>
+
+                <div id="no-idea-origin" style="margin-top: 40px;">
+
+					<span class="heading">
+						ORIGIN
+					</span>
+
+                    <div id="origin_form">
+						<span class="subheading">
+							<input id="no-idea-origin-input" type="text" size="5">
+						</span>
+                    </div>
+
+                </div>
+
+                <center><input type="submit" id="no-idea-submit"><center>
+
+
+            </div>
+
+
+			<div id="idea_form" class="zero-height">
+
+
+                <br><br><br><br><br><br><br><center><span class="subheading" style="color: #3E87D1;">What do you have an idea for?</span></center>
+
+                <div id="price_button">
+
+					<span class="heading">
+						PRICE
+					</span>
+
+				</div>
+
+				<div id="theme_button">
+				
+					<span class="heading">
+						THEME
+					</span>
+
+                </div>
+
+                <div id="season_button">
+
+					<span class="heading">
+						SEASON
+					</span>
+
+                </div>
+
+            </div>
+
+
+                <div id="theme_input" class="zero-height">
+
+
+
+                    <span class="subheading" style="color: #3E87D1;">Choose a theme!</span><br><br>
+
+                    <span class="subheading">
+                        <select id="theme-select">
+                            <option class="theme-option" value=""></option>
+                            <option class="theme-option" value="beach">BEACH</option>
+                            <option class="theme-option" value="disney">DISNEY</option>
+                            <option class="theme-option" value="gambling">GAMBLING</option>
+                            <option class="theme-option" value="historic">HISTORIC</option>
+                            <option class="theme-option" value="mountains">MOUNTAINS</option>
+                            <option class="theme-option" value="national-parks">NATIONAL-PARKS</option>
+                            <option class="theme-option" value="outdoors">OUTDOORS</option>
+                            <option class="theme-option" value="romantic">ROMANTIC</option>
+                            <option class="theme-option" value="shopping">SHOPPING</option>
+                            <option class="theme-option" value="skiing">SKIING</option>
+                            <option class="theme-option" value="theme-park">THEME-PARK</option>
+                        </select>
+                    </span>
+
+                    <div id="idea-theme-origin" style="margin-top: 30px;">
+
+                        <span class="heading">
+                        ORIGIN
+                        </span>
+
+                        <div id="origin_form">
+                        <span class="subheading">
+                        <input id="idea-origin-theme-input" type="text" size="5">
+                        </span>
+                        </div>
+
+                    </div>
+
+                    <center><input type="submit" id="idea-theme-submit"><center>
+
+
+                </div>
+
+
+                <div id="price_input" class="zero-height">
+
+
+                    <center><span class="subheading" style="color: #3E87D1;">Enter your preferences!</span></center>
+
+                    <div id="idea-price-origin" style="margin-top: 30px;">
+
+                        <span class="heading">
+                        ORIGIN
+                        </span>
+
+                        <div id="origin_form">
+                        <span class="subheading">
+                        <input id="idea-origin-input" type="text" size="5">
+                        </span>
+                        </div>
+
+                    </div>
+
+                    <div id="price">
+
+                    <span class="heading">
+                    MAX PRICE
+                    </span>
+
+                    <div id="price_form">
+                    <span class="subheading">
+                    $ <input id="max-price" type="text" size="5">
+                    </span>
+                    </div>
+
+                    </div>
+
+                    <div id="date">
+
+                    <span class="heading">
+                    LENGTH OF STAY
+                    </span>
+
+                    <div id="date_form">
+                    <span class="subheading">
+                    <input id="length" class="datepicker" type="text" size="5">
+                    </span>
+                    </div>
+
+                    </div>
+
+                    <div id="destination">
+
+                        <span class="heading">
+                        DESTINATION
+                        </span>
+
+                        <div id="destination_form">
+                            <span class="subheading">
+                                <input id="destination-input" type="text" size="5">
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <center><input type="submit" id="idea-price-submit"><center>
+
+
+                </div>
+
+
+                <div id="season_input" class="zero-height">
+
+
+                    <span class="subheading" style="color: #3E87D1;">Choose a season!</span><br><br>
+
+                    <span class="subheading">
+                        <select id="season-select">
+                            <option class="season-option" value=""></option>
+                            <option class="season-option" value="Summer">SUMMER</option>
+                            <option class="season-option" value="Autumn">AUTUMN</option>
+                            <option class="season-option" value="Winter">WINTER</option>
+                            <option class="season-option" value="Spring">SPRING</option>
+                        </select>
+                    </span>
+
+                    <center><input type="submit" id="idea-season-submit"><center>
+
+
+                </div>
+
+                <div id="results" class="zero-height" style="margin-top: 20px;">
+                    <center><span class="output-heading">RESULTS:</span></center><br>
+                </div>
+
+                <div id="output" class="output-subheading">
+                </div>
+
+
+		</div>	
+
+	</body>
+
+</html>
